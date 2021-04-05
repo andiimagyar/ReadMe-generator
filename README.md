@@ -9,22 +9,13 @@ This app uses Node to create a professional README fit for any project
 2. [Usage](#usage)
 3. [Questions](#questions)
 
-    
-
 ## Installation
-Step 1: ... Step 2: ...
+Requires use of Node.js, Inquirer package and Init files. Once installed, in terminal use "Node index" to begin program.
+
 
 ## Usage
-First... Then... Lastly...
+Can be used locally to easily create README.md files, just like this one!
 
-## License 
-![license](https://img.shields.io/badge/license-GPL3.0-blue.svg)
-
-## Collaborators
-Collab 1 github.com/collab1, Collab 2 github.com/collab2
-
-## Tests
-Test 1... Test 2...
 
 ## Questions?
 [Github](www.github.com/andiimagyar)
