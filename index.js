@@ -42,7 +42,7 @@ const questions = () => {
         {
             type: 'input',
             name: 'credits',
-            message: 'Please list your collaborators with links to their GitHub profiles.',
+            message: 'Please list your collaborators with links to their GitHub profiles separated by commas.',
             when: ({ collab }) => {
                 if (collab) {
                     return true;
@@ -71,8 +71,13 @@ const questions = () => {
         },
         {
             type: 'input',
-            name: 'questions',
+            name: 'email',
             message: 'Please enter contact email.'
+        },
+        {
+            type: 'input',
+            name: 'github',
+            message: 'Please enter GitHub username.'
         },
     ])
 
